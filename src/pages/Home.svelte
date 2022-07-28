@@ -1,16 +1,18 @@
 <script lang="ts">
+	let source: string = "https://www.dropbox.com/s/mnhhzozxwogam3t/me.png?dl=1";
+	// let source: string = "";
 </script>
 
-<div class="intro w-full h-screen grid place-items-center ">
+<div class="intro w-full h-screen grid place-items-center shadow-xl">
 	<div class="lg:container xl:px-8 flex flex-row items-end justify-between">
 		<img
-			src="https://www.dropbox.com/s/mnhhzozxwogam3t/me.png?dl=1"
+			src={source}
 			alt="me"
 			loading="lazy"
 			class="h-screen z-10 object-cover"
 		/>
 		<div
-			class="w-full h-screen hidden lg:flex flex-col justify-center items-end lg:mr-10"
+			class="w-full h-screen hidden lg:flex flex-col justify-center items-end"
 		>
 			<h1 class="xl:text-9xl lg:text-8xl text-gray-200 font-thin text-right">
 				hello, i'm
@@ -20,9 +22,15 @@
 			>
 				IAN VRIX DE GUZMAN
 			</h2>
+			<p class="text-xl text-gray-200 font-light text-right">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+				necessitatibus maxime quasi possimus repellendus, consectetur nulla cum,
+				tempore dolore placeat optio nam illo ratione, molestiae corporis. Qui
+				velit sint deleniti.
+			</p>
 		</div>
 	</div>
-	<div class="lg:hidden absolute bottom-1/4 z-20">
+	<div class="lg:hidden absolute bottom-10 z-20 px-5">
 		<h1
 			class="text-center text-gray-200 font-thin md:text-8xl sm:text-7xl text-6xl"
 		>
@@ -33,6 +41,12 @@
 		>
 			IAN VRIX DE GUZMAN
 		</h2>
+		<p class="text-xl text-gray-200 font-light text-center">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+			necessitatibus maxime quasi possimus repellendus, consectetur nulla cum,
+			tempore dolore placeat optio nam illo ratione, molestiae corporis. Qui
+			velit sint deleniti.
+		</p>
 	</div>
 </div>
 

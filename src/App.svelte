@@ -1,5 +1,9 @@
 <script lang="ts">
 	import Home from "./pages/Home.svelte";
+	import Projects from "./pages/Projects.svelte";
 </script>
 
-<Home />
+<main>
+	<Home />
+	<Projects />
+</main>
