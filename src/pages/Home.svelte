@@ -4,7 +4,12 @@
 
 <div class="intro w-full h-screen grid place-items-center ">
 	<div class="lg:container xl:px-8 flex flex-row items-end justify-between">
-		<img src={me} alt="me" loading="lazy" class="h-screen z-10 object-cover" />
+		<img
+			src="https://www.dropbox.com/s/mnhhzozxwogam3t/me.png?dl=1"
+			alt="me"
+			loading="lazy"
+			class="h-screen z-10 object-cover"
+		/>
 		<div
 			class="w-full h-screen hidden lg:flex flex-col justify-center items-end lg:mr-10"
 		>
