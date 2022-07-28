@@ -5,12 +5,7 @@
 
 <div class="intro w-full h-screen grid place-items-center shadow-xl">
 	<div class="lg:container xl:px-8 flex flex-row items-end justify-between">
-		<img
-			src={source}
-			alt="me"
-			loading="lazy"
-			class="h-screen z-10 object-cover"
-		/>
+		<img src={source} alt="me" class="h-screen z-10 object-cover" />
 		<div
 			class="w-full h-screen hidden lg:flex flex-col justify-center items-end"
 		>
