@@ -1,5 +1,4 @@
 <script lang="ts">
-	import me from "../assets/me.png";
 </script>
 
 <div class="intro w-full h-screen grid place-items-center ">
